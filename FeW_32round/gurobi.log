@@ -1,0 +1,993 @@
+
+Gurobi 10.0.3 (win64, Python) logging started Wed Oct  4 01:09:25 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.72 seconds
+: 200962 rows, 13121 columns, 1365056 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 200962 rows, 13121 columns and 1365056 nonzeros
+Model fingerprint: 0xa87af773
+Variable types: 1 continuous, 13120 integer (13120 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns (presolve time = 5s) ...
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 8.23s
+Presolved: 192004 rows, 12097 columns, 1347140 nonzeros
+Variable types: 0 continuous, 12097 integer (12096 binary)
+Root relaxation presolved: 11841 rows, 203845 columns, 1358981 nonzeros
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   1.024900e+04     17s
+   21831    2.0000000e+00   0.000000e+00   0.000000e+00     19s
+Concurrent spin time: 0.10s
+
+Solved with primal simplex
+   21831    2.0000000e+00   0.000000e+00   0.000000e+00     19s
+   21831    2.0000000e+00   0.000000e+00   0.000000e+00     19s
+
+Root relaxation: objective 2.000000e+00, 21831 iterations, 6.47 seconds (2.31 work units)
+Total elapsed time = 27.27s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0 1535          -    2.00000      -     -   44s
+H    0     0                       2.0000000    2.00000  0.00%     -   45s
+     0     0    2.00000    0 1535    2.00000    2.00000  0.00%     -   45s
+
+Explored 1 nodes (46939 simplex iterations) in 45.55 seconds (39.62 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Sat Oct  7 04:55:05 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.60 seconds
+: 204034 rows, 14401 columns, 1372736 nonzeros
+Set parameter NodefileStart to value 10
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 204034 rows, 14401 columns and 1372736 nonzeros
+Model fingerprint: 0xeac7ef5b
+Variable types: 1 continuous, 14400 integer (14400 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 15868 rows and 1280 columns (presolve time = 5s) ...
+Presolve removed 79500 rows and 3328 columns (presolve time = 10s) ...
+Presolve removed 100262 rows and 3808 columns
+Presolve time: 14.12s
+Presolved: 103772 rows, 10593 columns, 558939 nonzeros
+Variable types: 0 continuous, 10593 integer (10592 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Concurrent spin time: 0.52s
+
+Solved with dual simplex (primal model)
+
+Root relaxation: objective 2.000000e+00, 804 iterations, 1.83 seconds (0.51 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0   79          -    2.00000      -     -   28s
+H    0     0                       2.0000000    2.00000  0.00%     -   29s
+     0     0    2.00000    0   79    2.00000    2.00000  0.00%     -   29s
+
+Explored 1 nodes (9985 simplex iterations) in 29.91 seconds (20.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Sat Oct  7 05:20:02 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.50 seconds
+: 204034 rows, 14401 columns, 1372736 nonzeros
+Read LP format model from file few32_rev.lp
+Reading time = 1.68 seconds
+: 204034 rows, 14401 columns, 1372736 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 204034 rows, 14401 columns and 1372736 nonzeros
+Model fingerprint: 0xeac7ef5b
+Variable types: 1 continuous, 14400 integer (14400 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 15868 rows and 1280 columns (presolve time = 5s) ...
+Presolve removed 79500 rows and 3328 columns (presolve time = 10s) ...
+Presolve removed 100262 rows and 3808 columns
+Presolve time: 14.19s
+Presolved: 103772 rows, 10593 columns, 558939 nonzeros
+Variable types: 0 continuous, 10593 integer (10592 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Concurrent spin time: 0.40s
+
+Solved with dual simplex (primal model)
+
+Root relaxation: objective 2.000000e+00, 804 iterations, 1.75 seconds (0.51 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0   79          -    2.00000      -     -   28s
+H    0     0                       2.0000000    2.00000  0.00%     -   29s
+     0     0    2.00000    0   79    2.00000    2.00000  0.00%     -   29s
+
+Explored 1 nodes (9985 simplex iterations) in 29.50 seconds (20.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 18:34:06 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.57 seconds
+: 201474 rows, 13121 columns, 1367616 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 201474 rows, 13121 columns and 1367616 nonzeros
+Model fingerprint: 0x23d71274
+Variable types: 1 continuous, 13120 integer (13120 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns (presolve time = 5s) ...
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 7.31s
+Presolved: 192516 rows, 12097 columns, 1349700 nonzeros
+Variable types: 0 continuous, 12097 integer (12096 binary)
+Root relaxation presolved: 12097 rows, 204613 columns, 1361797 nonzeros
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   1.228900e+04     15s
+Concurrent spin time: 0.03s
+
+Solved with dual simplex
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    4606    2.0000000e+00   0.000000e+00   0.000000e+00     16s
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    4606    2.0000000e+00   0.000000e+00   0.000000e+00     17s
+
+Root relaxation: objective 2.000000e+00, 4606 iterations, 5.53 seconds (1.85 work units)
+Total elapsed time = 20.13s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0  105          -    2.00000      -     -   22s
+     0     0    2.00000    0  271          -    2.00000      -     -   27s
+     0     0    2.00000    0  188          -    2.00000      -     -   35s
+     0     0    2.00000    0  172          -    2.00000      -     -   38s
+     0     0    2.00000    0  129          -    2.00000      -     -   42s
+     0     0    2.00000    0  167          -    2.00000      -     -   44s
+     0     0    2.00000    0  191          -    2.00000      -     -   51s
+     0     0    2.00000    0  154          -    2.00000      -     -   53s
+     0     0    2.00000    0  250          -    2.00000      -     -   57s
+     0     0    2.00000    0  246          -    2.00000      -     -   59s
+     0     0    2.00000    0  241          -    2.00000      -     -   65s
+H    0     0                       3.0000000    2.00000  33.3%     -   65s
+     0     0    2.00000    0  241    3.00000    2.00000  33.3%     -   69s
+H    0     2                       2.0000000    2.00000  0.00%     -   81s
+     0     2    2.00000    0  241    2.00000    2.00000  0.00%     -   81s
+
+Cutting planes:
+  Cover: 2
+  Clique: 1
+  MIR: 9
+  Zero half: 25
+  RLT: 32
+  BQP: 1
+
+Explored 1 nodes (35320 simplex iterations) in 81.93 seconds (48.16 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2 3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 19:50:25 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.53 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns (presolve time = 5s) ...
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 6.98s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 11.32 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 20:15:51 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.52 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 20:17:35 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32rev.lp
+Reading time = 1.57 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns (presolve time = 5s) ...
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 6.84s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 11.17 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 21:02:04 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32rev.lp
+Reading time = 0.99 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 3.40s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 5.28 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+IIS computation: initial model status unknown, solving to determine model status
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 3.40s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 5.25 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+IIS runtime: 5.31 seconds (3.99 work units)
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 21:09:54 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.63 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+
+Gurobi 10.0.3 (win64, Python) logging started Fri Oct 20 21:10:36 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32rev.lp
+Reading time = 0.64 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 3.31s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 5.20 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Thu Nov  2 09:24:30 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.62 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Read LP format model from file few32rev.lp
+Reading time = 0.69 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 3.26s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 5.09 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Thu Nov  2 11:40:43 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.71 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 3.37s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 5.65 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Thu Nov  2 11:48:00 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.64 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Read LP format model from file few32rev.lp
+Reading time = 0.64 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xbb50b62b
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve time: 0.07s
+
+Explored 0 nodes (0 simplex iterations) in 0.25 seconds (0.21 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.3 (win64, Python) logging started Thu Nov  2 11:49:33 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.60 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Read LP format model from file few32rev.lp
+Reading time = 0.74 seconds
+: 196353 rows, 8001 columns, 1362240 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 196353 rows, 8001 columns and 1362240 nonzeros
+Model fingerprint: 0xb8b80e81
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 3.32s
+Presolved: 187395 rows, 6977 columns, 1344324 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 5.25 seconds (3.99 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Thu Nov  2 15:51:28 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 1.20 seconds
+: 242945 rows, 8001 columns, 1742400 nonzeros
+
+Gurobi 10.0.3 (win64, Python) logging started Thu Nov  2 15:52:24 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32rev.lp
+Reading time = 1.24 seconds
+: 242945 rows, 8001 columns, 1742400 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 242945 rows, 8001 columns and 1742400 nonzeros
+Model fingerprint: 0x47860852
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 8958 rows and 1024 columns (presolve time = 5s) ...
+Presolve removed 8958 rows and 1024 columns
+Presolve time: 6.21s
+Presolved: 233987 rows, 6977 columns, 1724484 nonzeros
+Variable types: 0 continuous, 6977 integer (6976 binary)
+Root relaxation presolved: 6721 rows, 240708 columns, 1731461 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   1.000000e+00     13s
+     161   -0.0000000e+00   0.000000e+00   0.000000e+00     13s
+     161   -0.0000000e+00   0.000000e+00   0.000000e+00     14s
+     161    0.0000000e+00   0.000000e+00   0.000000e+00     14s
+
+Root relaxation: objective 0.000000e+00, 161 iterations, 3.88 seconds (1.98 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   20          -    0.00000      -     -   14s
+H    0     0                       0.0000000    0.00000  0.00%     -   15s
+
+Explored 1 nodes (785 simplex iterations) in 15.64 seconds (8.18 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Sun Nov  5 01:07:25 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.69 seconds
+: 126721 rows, 8001 columns, 1006912 nonzeros
+
+Gurobi 10.0.3 (win64, Python) logging started Sun Nov  5 01:07:55 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32rev.lp
+Reading time = 0.67 seconds
+: 126721 rows, 8001 columns, 1006912 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 126721 rows, 8001 columns and 1006912 nonzeros
+Model fingerprint: 0xe35273bc
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 37826 rows and 1024 columns
+Presolve time: 4.13s
+Presolved: 88895 rows, 6977 columns, 562353 nonzeros
+Variable types: 0 continuous, 6977 integer (6977 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 4.71 seconds (4.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Sun Nov  5 01:14:23 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.37 seconds
+: 126721 rows, 8001 columns, 1006656 nonzeros
+
+Gurobi 10.0.3 (win64, Python) logging started Sun Nov  5 01:14:48 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32rev.lp
+Reading time = 0.39 seconds
+: 126721 rows, 8001 columns, 1006656 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 126721 rows, 8001 columns and 1006656 nonzeros
+Model fingerprint: 0xaad306da
+Variable types: 257 continuous, 7744 integer (7744 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 37533 rows and 1536 columns
+Presolve time: 3.87s
+Presolved: 89188 rows, 6465 columns, 555852 nonzeros
+Variable types: 0 continuous, 6465 integer (6465 binary)
+Root relaxation presolved: 6465 rows, 95653 columns, 562317 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    8013    4.9355212e+02   0.000000e+00   2.847737e+03      5s
+   29073    5.1226503e+02   0.000000e+00   3.540579e+03     10s
+   41553    5.1200000e+02   0.000000e+00   0.000000e+00     14s
+   41553    5.1200000e+02   0.000000e+00   0.000000e+00     15s
+
+Root relaxation: objective 5.120000e+02, 41553 iterations, 10.24 seconds (15.25 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  512.00000    0 4625          -  512.00000      -     -   38s
+H    0     0                     706.0000000  512.00000  27.5%     -   38s
+H    0     0                     705.0000000  512.00000  27.4%     -   39s
+     0     0  512.00000    0 4596  705.00000  512.00000  27.4%     -  113s
+     0     0  512.00000    0 4379  705.00000  512.00000  27.4%     -  132s
+     0     0  512.00000    0 4493  705.00000  512.00000  27.4%     -  221s
+H    0     0                     704.0000000  512.00000  27.3%     -  221s
+     0     0  512.00000    0 4366  704.00000  512.00000  27.3%     -  242s
+     0     0  512.00000    0 4461  704.00000  512.00000  27.3%     -  316s
+     0     0  512.00000    0 4382  704.00000  512.00000  27.3%     -  329s
+     0     0          -    0       704.00000  512.00000  27.3%     -  346s
+
+Cutting planes:
+  MIR: 260
+  Zero half: 113
+  RLT: 112
+
+Explored 1 nodes (218513 simplex iterations) in 346.76 seconds (1308.49 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 704 705 706 
+
+Solve interrupted
+Best objective 7.040000000000e+02, best bound 5.120000000000e+02, gap 27.2727%
+
+Gurobi 10.0.3 (win64, Python) logging started Sun Nov  5 01:27:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.36 seconds
+: 127233 rows, 8001 columns, 1011520 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 127233 rows, 8001 columns and 1011520 nonzeros
+Model fingerprint: 0x38ed76e1
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 45207 rows and 1024 columns
+Presolve time: 2.21s
+Presolved: 82026 rows, 6977 columns, 502059 nonzeros
+Variable types: 0 continuous, 6977 integer (6977 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 2.50 seconds (3.77 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.3 (win64, Python) logging started Sun Nov  5 13:05:53 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few32.lp
+Reading time = 0.70 seconds
+: 127233 rows, 8001 columns, 1013568 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 127233 rows, 8001 columns and 1013568 nonzeros
+Model fingerprint: 0x79f8b881
+Variable types: 1 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 45312 rows and 1024 columns
+Presolve time: 3.93s
+Presolved: 81921 rows, 6977 columns, 502914 nonzeros
+Variable types: 0 continuous, 6977 integer (6977 binary)
+Root relaxation presolved: 6721 rows, 88642 columns, 509891 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   1.000000e+00      6s
+     267    5.0000000e-02   0.000000e+00   0.000000e+00      6s
+     267    5.0000000e-02   0.000000e+00   0.000000e+00      6s
+     267    5.0000000e-02   0.000000e+00   0.000000e+00      6s
+
+Root relaxation: objective 5.000000e-02, 267 iterations, 1.05 seconds (0.77 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.05000    0   22          -    0.05000      -     -    6s
+     0     0    0.12500    0   22          -    0.12500      -     -    8s
+     0     0    0.23077    0   66          -    0.23077      -     -    8s
+     0     0    0.25000    0   56          -    0.25000      -     -    9s
+     0     0    0.25000    0   42          -    0.25000      -     -    9s
+     0     0    0.28541    0  144          -    0.28541      -     -    9s
+     0     0    2.00000    0   87          -    2.00000      -     -   10s
+     0     0    2.00000    0   87          -    2.00000      -     -   10s
+     0     0    2.00000    0   38          -    2.00000      -     -   11s
+     0     0    2.00000    0   24          -    2.00000      -     -   12s
+     0     0    2.00000    0   30          -    2.00000      -     -   12s
+     0     0    2.00000    0   50          -    2.00000      -     -   12s
+     0     0    2.00000    0   40          -    2.00000      -     -   13s
+     0     0    2.00000    0   30          -    2.00000      -     -   14s
+     0     0    2.00000    0   63          -    2.00000      -     -   14s
+     0     0    2.00000    0   24          -    2.00000      -     -   15s
+     0     2    2.00000    0   24          -    2.00000      -     -   22s
+   108   106   10.25000   20  102          -    2.00000      -   126   25s
+   308   302   10.19444   23   68          -    2.00000      -   160   30s
+   500   478   18.13889   38  106          -    2.00000      -   177   35s
+   706   690   28.00000   51  122          -    2.00000      -   188   40s
+   918   893   30.41239   59  580          -    2.00000      -   189   45s
+  1047   969   16.33333   32   24          -    2.00000      -   187   59s
+  1048   970    2.36111   10   24          -    2.00000      -   187   60s
+  1049   970   20.00000   35  628          -    2.00000      -   187   71s
+  1051   972   11.37634   21  277          -    2.00000      -   187   76s
+  1054   974   12.24569   29   76          -    2.00000      -   186   81s
+  1058   976   40.45928   54  182          -    2.00000      -   185   86s
+  1062   979    2.43979    9   75          -    2.00000      -   185   90s
+  1066   982   10.27035   22   42          -    4.00000      -   184   99s
+  1067   985    4.00000   15   98          -    4.00000      -  28.1  100s
+  1073   991    4.00000   17   73          -    4.00000      -  33.0  114s
+  1077   994    4.00000   17  722          -    4.00000      -  48.9  119s
+  1081   997    4.00000   18 1006          -    4.00000      -  75.4  123s
+  1085   999    4.00000   18   62          -    4.00000      -  87.2  129s
+  1089  1002    4.00000   19   84          -    4.00000      -   110  137s
+  1093  1007    4.00000   19   40          -    4.00000      -   135  142s
+  1099  1009    4.00000   20  161          -    4.00000      -   158  148s
+  1103  1012    4.00000   21   72          -    4.00000      -   180  155s
+  1108  1015    4.00000   22  451          -    4.00000      -   211  171s
+  1112  1017    4.36220   22 1150          -    4.00000      -   255  185s
+  1116  1020    4.00000   23  836          -    4.00000      -   298  196s
+  1120  1023    4.81783   23 1059          -    4.00000      -   322  204s
+  1124  1028    4.00000   24  231          -    4.00000      -   339  215s
+  1131  1032    4.00000   25  688          -    4.00000      -   378  229s
+  1137  1037    4.00000   25  560          -    4.00000      -   412  236s
+  1144  1040    5.20852   26 1454          -    4.00000      -   436  246s
+  1149  1043    4.00000   27 1292          -    4.00000      -   469  254s
+  1154  1046    4.06801   27 1118          -    4.00000      -   495  262s
+  1159  1050    4.00000   28 1354          -    4.00000      -   526  280s
+  1164  1055    5.33333   28  132          -    4.00000      -   556  291s
+  1171  1058    4.00000   29 1116          -    4.00000      -   602  301s
+  1176  1060    4.00000   30 1435          -    4.00000      -   633  315s
+  1180  1063    4.54195   30 1164          -    4.00000      -   653  323s
+  1184  1067    4.00000   31 1448          -    4.00000      -   685  335s
+  1190  1069    4.00000   32 1149          -    4.00000      -   720  354s
+  1194  1072    5.38224   32 1828          -    4.00000      -   775  364s
+  1200  1074    4.43136   33 1032          -    4.00000      -   810  379s
+  1204  1076    5.12101   33 1191          -    4.00000      -   847  410s
+  1209  1079    4.57618   34  953          -    4.00000      -   886  428s
+  1214  1082    6.00000   35   58          -    4.00000      -   931  456s
+  1219  1086    6.77960   36 1019          -    4.00000      -   981  482s
+  1226  1090    7.01718   37 1174          -    4.00000      -  1031  505s
+  1233  1095    7.20146   38 1295          -    4.00000      -  1082  541s
+  1240  1098    7.26247   39 1566          -    4.00000      -  1129  563s
+  1247  1100 infeasible   40               -    4.00000      -  1179  592s
+  1254  1105   10.78996   41 1427          -    4.00000      -  1233  633s
+  1263  1103   10.73774   42 1522          -    4.00000      -  1286  682s
+  1268  1112   16.89962   43 1511          -    4.00000      -  1331  718s
+  1279  1119   16.98207   44 1597          -    4.00000      -  1374  754s
+  1289  1126   18.73887   45 1531          -    4.00000      -  1441  787s
+  1300  1133   20.85288   47 1559          -    4.00000      -  1498  822s
+  1310  1143   21.07416   48 1706          -    4.00000      -  1530  855s
+  1324  1148   22.96792   49 1476          -    4.00000      -  1589  885s
+  1337  1155   23.36558   50 1849          -    4.00000      -  1641  925s
+  1353  1166   23.80809   51 2209          -    4.00000      -  1690  963s
+  1369  1173   24.85004   52 1745          -    4.00000      -  1735 1000s
+  1381  1181   25.09683   54 1283          -    4.00000      -  1790 1038s
+  1393  1190   25.76649   56 2330          -    4.00000      -  1845 1084s
+  1406  1198   29.75968   57 1519          -    4.00000      -  1890 1121s
+  1423  1206   30.81173   59  634          -    4.00000      -  1936 1167s
+  1438  1218   33.65838   61 1407          -    4.00000      -  1998 1226s
+  1457  1231   33.17388   64 1018          -    4.00000      -  2041 1272s
+  1479  1238   35.32135   70  690          -    4.00000      -  2074 1326s
+  1497  1249   38.42376   73 1732          -    4.00000      -  2135 1378s
+  1514  1254   37.41089   75 1459          -    4.00000      -  2192 1435s
+  1533  1263   44.31647   79 1950          -    4.00000      -  2234 1493s
+  1556  1279   46.45644   82 2053          -    4.00000      -  2296 1546s
+  1582  1288   52.91634   85 1528          -    4.00000      -  2343 1610s
+  1603  1287   52.20000   87  778          -    4.00000      -  2409 1697s
+  1617  1304   54.62857   89  894          -    4.00000      -  2443 1771s
+  1641  1312 infeasible   93               -    4.00000      -  2522 1842s
+  1677  1316    4.83851   22 1307          -    4.00000      -  2588 1913s
+  1703  1327    6.00000   24   58          -    4.00000      -  2659 1990s
+  1739  1338    6.77754   25 1528          -    4.00000      -  2718 2074s
+  1764  1356    9.00000   29  184          -    4.00000      -  2813 2152s
+  1796  1364   11.24209   31 1637          -    4.00000      -  2896 2231s
+  1823  1370   14.35191   34 1514          -    4.00000      -  2989 2305s
+  1838  1391   14.93479   36  867          -    4.00000      -  3038 2397s
+  1874  1407   18.26939   38 1770          -    4.00000      -  3107 2490s
+  1910  1424   20.77486   40 2072          -    4.00000      -  3185 2590s
+  1945  1440   21.25990   41 1865          -    4.00000      -  3271 2693s
+  1976  1458   22.44375   45  520          -    4.00000      -  3353 2798s
+  2009  1481   25.73874   52 1092          -    4.00000      -  3436 2895s
+  2045  1526   26.64482   56  689          -    4.00000      -  3507 3002s
+  2110  1558   27.19245   57  635          -    4.00000      -  3488 3121s
+  2199  1568   30.50987   65 1536          -    4.00000      -  3494 3236s
+  2239  1587   35.05743   68 1932          -    4.00000      -  3585 3343s
+  2283  1611   34.94607   69 1636          -    4.00000      -  3656 3452s
+  2328  1648   38.67603   74 1855          -    4.00000      -  3734 3537s
+  2382  1663 infeasible   76               -    4.00000      -  3803 3617s
+  2425  1697   44.85252   79 1172          -    4.00000      -  3842 3708s
+  2489  1750   45.33333   82  672          -    4.00000      -  3899 3801s
+  2570  1785 infeasible   87               -    4.00000      -  3926 3895s
+  2646  1834   52.02110   91 1653          -    4.00000      -  3972 3997s
+  2726  1865   55.04647   91 1914          -    4.00000      -  4030 4096s
+  2788  1907   55.75505   91 2538          -    4.00000      -  4076 4201s
+  2862  1915   57.49984   96 2283          -    4.00000      -  4127 4317s
+  2935  1955   59.99904   99 2534          -    4.00000      -  4203 4444s
+  3005  1965   61.02439  104 2336          -    4.00000      -  4273 4563s
+  3051  2009   68.22452  106 2585          -    4.00000      -  4339 4689s
+  3128  2053   67.88238  109 2786          -    4.00000      -  4396 4829s
+  3212  2084   70.11949  111 2135          -    4.00000      -  4462 4975s
+  3301  2103   75.21586  114 3239          -    4.00000      -  4512 5114s
+  3357  2142   79.35526  119 3112          -    4.00000      -  4582 5264s
+  3421  2213   82.42501  120 2806          -    4.00000      -  4669 5422s
+  3529  2247   84.53506  123 3079          -    4.00000      -  4711 5580s
+  3615  2298   87.90254  124 3452          -    4.00000      -  4775 5755s
+  3705  2381   88.00421  124 3451          -    4.00000      -  4855 5930s
+  3834  2404   91.28485  126 3214          -    4.00000      -  4851 6114s
+  3914  2475 infeasible  127               -    4.00000      -  4943 6299s
+  4034  2503 infeasible  135               -    4.00000      -  4985 6493s
+  4110  2621  115.82649  137 3659          -    4.00000      -  5049 6709s
+  4256  2722    7.93483   33 1385          -    4.00000      -  5091 6943s
+  4365  2807   19.53890   46 1682          -    4.00000      -  5173 7195s
+  4460  2974   27.25915   56 1138          -    4.00000      -  5280 7452s
+  4661  3170 infeasible   68               -    4.00000      -  5214 7692s
+  4893  3315 infeasible   80               -    4.00000      -  5151 7935s
+  5192  3449   80.31353  104 1228          -    4.00000      -  5047 8174s
+  5362  3551    6.51836   35 1619          -    4.00000      -  5117 8417s
+  5484  3670   16.72667   51  997          -    4.00000      -  5168 8715s
+  5629  3817    9.31746   38 1622          -    4.00000      -  5238 9049s
+  5806  3856   19.23496   51 1679          -    4.00000      -  5286 9177s
+
+Cutting planes:
+  Lift-and-project: 4
+  MIR: 1
+  Flow cover: 5
+  Zero half: 5
+  RLT: 17
+
+Explored 5865 nodes (31269029 simplex iterations) in 9177.40 seconds (16147.84 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 4.000000000000e+00, gap -

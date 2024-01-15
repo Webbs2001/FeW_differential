@@ -1,0 +1,59 @@
+
+Gurobi 10.0.3 (win64, Python) logging started Mon Dec 18 12:53:59 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few4_multi.lp
+Reading time = 0.03 seconds
+: 5025 rows, 928 columns, 21504 nonzeros
+Set parameter PoolSearchMode to value 2
+Set parameter PoolSolutions to value 2
+Set parameter PoolGap to value 0
+Set parameter SolFiles to value ".\few4_multi"
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 5025 rows, 928 columns and 21504 nonzeros
+Model fingerprint: 0xfdadac74
+Variable types: 0 continuous, 928 integer (928 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+00]
+Presolve removed 3280 rows and 673 columns
+Presolve time: 0.05s
+Presolved: 1745 rows, 255 columns, 7633 nonzeros
+Variable types: 0 continuous, 255 integer (255 binary)
+Found heuristic solution: objective 12.0000000
+Root relaxation presolved: 1745 rows, 255 columns, 7633 nonzeros
+
+
+Root relaxation: objective 1.125000e+01, 195 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   11.25000    0    2   12.00000   11.25000  6.25%     -    0s
+     0     0          -    0        12.00000   12.00000  0.00%     -    0s
+
+Optimal solution found at node 0 - now completing solution pool...
+
+    Nodes    |    Current Node    |      Pool Obj. Bounds     |     Work
+             |                    |   Worst                   |
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0               -   12.00000      -     -    0s
+     0     0          -    0               -   12.00000      -     -    0s
+
+Explored 1 nodes (222 simplex iterations) in 0.11 seconds (0.07 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 12 
+No other solutions better than 1e+100
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
