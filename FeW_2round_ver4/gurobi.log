@@ -1,0 +1,36 @@
+
+Gurobi 10.0.3 (win64, Python) logging started Tue Jan 16 01:46:01 2024
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few2.lp
+Reading time = 0.01 seconds
+: 2769 rows, 816 columns, 11040 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2769 rows, 816 columns and 11040 nonzeros
+Model fingerprint: 0xbc6b3288
+Variable types: 0 continuous, 816 integer (816 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+00]
+Presolve time: 0.03s
+Presolved: 2769 rows, 816 columns, 11040 nonzeros
+Variable types: 0 continuous, 816 integer (816 binary)
+Found heuristic solution: objective 44.0000000
+Found heuristic solution: objective 3.0000000
+Found heuristic solution: objective 2.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 2 3 44 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
