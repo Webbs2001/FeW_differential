@@ -1,0 +1,71 @@
+
+Gurobi 10.0.3 (win64, Python) logging started Wed Jan 31 13:01:42 2024
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-09-16
+Read LP format model from file few7.lp
+Reading time = 0.04 seconds
+: 9689 rows, 2696 columns, 38480 nonzeros
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 9689 rows, 2696 columns and 38480 nonzeros
+Model fingerprint: 0x0292845e
+Variable types: 0 continuous, 2696 integer (2696 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+00]
+Presolve time: 0.07s
+Presolved: 9689 rows, 2696 columns, 38480 nonzeros
+Variable types: 0 continuous, 2696 integer (2696 binary)
+
+Root relaxation: objective 5.000000e-02, 933 iterations, 0.04 seconds (0.06 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.05000    0   41          -    0.05000      -     -    0s
+     0     0    0.25000    0   70          -    0.25000      -     -    0s
+     0     0    0.50909    0   71          -    0.50909      -     -    0s
+     0     0    0.73124    0  162          -    0.73124      -     -    0s
+     0     0    2.00000    0  225          -    2.00000      -     -    0s
+     0     0    2.00000    0  394          -    2.00000      -     -    0s
+     0     0    2.00000    0  234          -    2.00000      -     -    0s
+     0     0    2.00000    0  216          -    2.00000      -     -    0s
+     0     0    2.00000    0  202          -    2.00000      -     -    0s
+H    0     0                      93.0000000    2.00000  97.8%     -    0s
+     0     0    2.00000    0  184   93.00000    2.00000  97.8%     -    1s
+H    0     0                      92.0000000    2.00000  97.8%     -    1s
+     0     0    2.00000    0  155   92.00000    2.00000  97.8%     -    1s
+     0     0    2.00000    0  441   92.00000    2.00000  97.8%     -    1s
+     0     0    2.00000    0  355   92.00000    2.00000  97.8%     -    2s
+     0     0    2.00000    0  326   92.00000    2.00000  97.8%     -    2s
+     0     0    2.00000    0  114   92.00000    2.00000  97.8%     -    2s
+     0     0    2.00000    0  133   92.00000    2.00000  97.8%     -    2s
+     0     0    2.05000    0  221   92.00000    2.05000  97.8%     -    2s
+     0     0    2.05072    0  175   92.00000    2.05072  97.8%     -    2s
+     0     0    2.06944    0  129   92.00000    2.06944  97.8%     -    2s
+     0     0    2.07895    0  129   92.00000    2.07895  97.7%     -    3s
+     0     2    3.00000    0  129   92.00000    3.00000  96.7%     -    3s
+H   27    32                      91.0000000    3.00000  96.7%   497    3s
+
+Cutting planes:
+  Cover: 14
+  Clique: 14
+  MIR: 38
+  StrongCG: 2
+  Zero half: 2
+  RLT: 4
+
+Explored 58 nodes (55655 simplex iterations) in 4.28 seconds (3.70 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 91 92 93 
+
+Solve interrupted
+Best objective 9.100000000000e+01, best bound 3.000000000000e+00, gap 96.7033%
